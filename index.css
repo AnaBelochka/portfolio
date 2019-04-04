@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+
+.basic {
+    display: flex;
+}
+
+.aside{
+    background-color: #ECE4DA;
+    width: 30%;
+    height: 100vh;
+}
+
+.aside--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside--main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.image {
+    margin: 20px;
+    border-radius: 120px;
+    width: 75%;
+    height: 75%;
+}
+
+.aside--footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    padding: 8px;
+}
+
+.name {
+    padding: 8px;
+    font: bold italic 25px serif;
+}
