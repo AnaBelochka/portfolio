@@ -9,29 +9,30 @@ body{
 
 .aside{
     background-color: #ECE4DA;
-    width: 30%;
-    height: 100vh;
+    height: 100%;
+    position: absolute;
 }
 
 .aside--header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 40%;
 }
 
-.aside--main {
+.aside--navigation {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 50%;
 }
 
 .image {
     margin: 20px;
-    border-radius: 120px;
-    width: 75%;
-    height: 75%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 
 .aside--footer{
@@ -47,4 +48,13 @@ body{
 .name {
     padding: 8px;
     font: bold italic 25px serif;
+}
+
+li {
+    padding: 8px;
+    list-style-type: none;
+}
+
+ul {
+    padding-inline-start: 0;
 }
